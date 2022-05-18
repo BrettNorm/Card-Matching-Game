@@ -47,7 +47,7 @@ struct EmojiMatchingGameView: View {
         
         cardGrid(items: game.cards, aspectRatio: 2/3) { card in
             if (card.matched) {
-                // Can't make them stay
+                // Can't make cards stay after match
                 // (insert joke about my mom)
             }
             else if cardUndealt(card) {
